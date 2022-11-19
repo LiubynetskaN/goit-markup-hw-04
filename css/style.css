@@ -84,14 +84,13 @@ ul {
 .header-contacts {
   display: flex;
   align-items: center;
-  /* vertical-align: middle; */
+ 
   
 }
 
 .contact-icon{
   margin-right: 10px;
-  
-  
+   
 }
 
 .header-contact:not(:last-child) {
@@ -563,7 +562,8 @@ content "";
   content "";
 }
 
-.social-link:hover{
+.social-link:hover,
+.social-link:focus{
   background-color: var(--hero-button-bg);
   }
 
